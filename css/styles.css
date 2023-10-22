@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, serif;
+}
+
+.container{
+   max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 30px 0;
+    background-color: #020303;
+}
+
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu{
+    margin-left: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .container, .main .container, .rolls .container, .sushist .container{
+    font-size: 0;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+
+.menu ul li:first-child{
+    margin-left: 0;
+}
+
+.menu ul li:last-child{
+    margin-left: 24px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+}
+
+.menu ul li a:hover{
+    font-size: 16px;
+    color: rgb(255, 175, 24);
+    line-height: 1.2;
+    text-align: left;
+    border-bottom: 2px solid rgb(255, 175, 24);
+}
+
+.main{
+    background-color: #020303;
+    padding: 133px 0 80px 0;
+}
+
+.main-info{
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 564px;
+    padding-bottom: 45px;
+}
+
+.main-image{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 22px;
+}
+
+.main h1{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 74px;
+    line-height: 1.222;
+}
+
+.main h1 span{
+    color: #ffaf18;
+}
+
+.main-info-item{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-info-item img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-item span{
+    margin-left: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-item.first-item {
+    margin-right: 99px;
+}
+
+.main-info .text{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.main-info-items{
+    margin-bottom: 104px;
+}
+
+.button{
+    padding: 22px;
+    width: 224px;
+    text-align: center;
+    border: 0;
+    border-radius: 35px;
+    background-color: #ffaf18;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+.button:hover {
+    border-radius: 35px;
+    box-shadow: 0 14px 10px rgba(255, 175, 24, .2 );
+}
+
+
+.rolls{
+    background-color: #020303;
+    padding: 120px 0;
+}
+
+
+.rolls-items{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+.rolls h2{
+    margin-bottom: 48px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.rolls-item{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px;
+    background-color: #ffffff;
+    width: 282px;
+    padding: 5px 15px 10px 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.rolls-item:hover{
+    box-shadow: 0 0 10px 2px #ffffff;
+}
+
+.rolls-item:not(.rolls-item:first-child, .rolls-item:last-child){
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.rolls-item:first-child, .rolls-item:last-child{
+    border: 5px solid #ed9b00;
+    box-sizing: border-box;
+}
+
+.rolls-item img{
+    margin-bottom: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.rolls-item h6{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+}
+
+.rolls .description{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    width: 242px;
+    display: inline-block;
+    height: 51px;
+}
+
+.button.add{
+    padding: 17px;
+    display: inline-block;
+    width: 242px;
+}
+
+.button.add:hover{
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(255, 175, 24, 0.5);
+}
+.sushist{
+    background-color: #020303;
+    padding: 120px 0 67px 0;
+}
+.sushist-info{
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 384px;
+}
+
+.sushist-info h2{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 60px;
+    line-height: 1.286;
+}
+
+.sushist-info-text{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.sushist-info-more h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+
+.sushist-info-more-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.sushist-info-more-icon:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.sushist-info-more-icon:visited{
+    background-color: #BEBEBEFF;
+}
+
+
+.sushist-info-more-icon:active{
+    background-color: #ffaf18ff;
+}
+
+
+.sushist-info-more-icon img{
+    text-align: center;
+}
+
+.sushist-info-more-icon:first-child img{
+    padding: 13px 6px 13px 8px;
+}
+
+.sushist-info-more-icon:nth-child(2) img{
+    padding: 11px 9px 10px 12px;
+}
+
+.sushist-info-more-icon:last-child img{
+    padding: 14px 7px;
+}
+
+.sushist-image{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 48px;
+}
+
+.footer{
+    background-color: #000000;
+    padding: 35px 0;
+}
+
+.footer img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 390px;
+}
+
+.footer span{
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    display: inline-block;
+    display: inline-block;
+}
+
